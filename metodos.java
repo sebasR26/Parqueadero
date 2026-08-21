@@ -42,5 +42,20 @@ public class metodos {
             }
         }
     }
-    
+
+    public double calcularTotal (objmatriz[][] a){
+        double desc = (precio * descuento)/100;
+        total = precio - desc;
+        return total;
+    }
+
+    public double totalParqueadero (objmatriz[][] a){
+        acumuladora=0;
+        for (int i=0;i<a.length;i++){
+            for(int j=0;j<a.length;j++){
+                acumuladora +=a[i][j].getTotal();
+            }
+        }
+        return acumuladora;
+    }
 }
