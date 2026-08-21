@@ -4,7 +4,7 @@ public class menu {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         metodos m = new metodos();
-        boolean continuar=true;
+        boolean continuar=true; 
         objmatriz[][] a = new objmatriz[2][2];
         
         while (continuar) {

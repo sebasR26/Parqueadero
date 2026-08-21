@@ -1,13 +1,12 @@
 public class objmatriz {
     String vehiculo;
     String dueño;
-    String tipo;
-    String plan;
+    int tipo;
+    int plan;
     Double precio;
     Double descuento;
     Double total;
-    public objmatriz(String vehiculo, String dueño, String tipo, String plan, Double precio, Double descuento,
-            Double total) {
+    public objmatriz(String vehiculo, String dueño, int tipo, int plan, Double precio, Double descuento, Double total) {
         this.vehiculo = vehiculo;
         this.dueño = dueño;
         this.tipo = tipo;
@@ -28,16 +27,16 @@ public class objmatriz {
     public void setDueño(String dueño) {
         this.dueño = dueño;
     }
-    public String getTipo() {
+    public int getTipo() {
         return tipo;
     }
-    public void setTipo(String tipo) {
+    public void setTipo(int tipo) {
         this.tipo = tipo;
     }
-    public String getPlan() {
+    public int getPlan() {
         return plan;
     }
-    public void setPlan(String plan) {
+    public void setPlan(int plan) {
         this.plan = plan;
     }
     public Double getPrecio() {
